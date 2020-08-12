@@ -23,6 +23,8 @@ const tempColor = new THREE.Color()
 const colors = new Array(1000).fill().map(() => niceColors[66][Math.floor(Math.random() * 4)])
 
 function Boxes() {
+
+
   const [hovered, set] = useState()
   const colorArray = useMemo(() => Float32Array.from(new Array(1000).fill().flatMap((_, i) => tempColor.set(colors[i]).toArray())), [])
 
