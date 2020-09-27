@@ -52,7 +52,7 @@ function Boxes() {
           tempObject.scale.set(scale, scale, scale)
           tempObject.updateMatrix()
           ref.current.setMatrixAt(id, tempObject.matrix)
-        }
+        } 
     ref.current.instanceMatrix.needsUpdate = true
   })
 
