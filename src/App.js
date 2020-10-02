@@ -63,7 +63,7 @@ function Boxes() {
       </boxBufferGeometry>
       <meshPhongMaterial attach="material" vertexColors={THREE.VertexColors} />
     </instancedMesh>
-  )
+  )  
 }
 
 
