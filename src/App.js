@@ -40,7 +40,7 @@ function Boxes() {
     for (let x = 0; x < 10; x++)
       for (let y = 0; y < 10; y++)
         for (let z = 0; z < 10;  z++) {
-          const id = i++ 
+          const id = i++  
           tempObject.position.set(5 - x, 5 - y, 5 - z)
           tempObject.rotation.y = Math.sin(x / 4 + time) + Math.sin(y / 4 + time) + Math.sin(z / 4 + time)
           tempObject.rotation.z = tempObject.rotation.y * 2
